@@ -1,5 +1,3 @@
 fn main() {
-    let mut spaces = "   ";
-    spaces = spaces.len();
-    println!("The value of spaces is: {}", spaces);
+    let guess = "42".parse().expect("Not a number!");
 }
