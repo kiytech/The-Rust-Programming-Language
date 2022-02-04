@@ -1,3 +1,6 @@
 fn main() {
-    let guess = "42".parse().expect("Not a number!");
+    let x = 2.1;
+    let y: f32 = 3.0;
+
+    println!("x: {}, y: {}", x, y);
 }
