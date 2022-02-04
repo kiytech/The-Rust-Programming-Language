@@ -1,6 +1,5 @@
 fn main() {
-    let c = 'z';
-    let z = 'ℤ';
-    let heart_eyed_cat = '😻';    //ハート目の猫
-    println!("c: {}, z: {}, heart_eyed_cat: {}", c, z, heart_eyed_cat);
+    let tup = (500, 6.4, 1);
+    let (x, y, z) = tup;
+    println!("The value of y is: {}", y);
 }
